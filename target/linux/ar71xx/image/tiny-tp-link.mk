@@ -682,3 +682,14 @@ define Device/tl-wr941nd-v6-cn
   TPLINK_HWID := 0x09410006
 endef
 TARGET_DEVICES += tl-wr941nd-v6-cn
+
+define Device/tl-wdr3227-v2
+  $(Device/tplink-8mlzma)
+  DEVICE_TITLE := TP-LINK TL-WDR3227 v2
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport
+  BOARDNAME := TL-WDR3227-v2
+  DEVICE_PROFILE := TLWDR3227V2
+  TPLINK_HWID := 0x32270002
+  TPLINK_HEADER_VERSION := 2
+endef
+TARGET_DEVICES += tl-wdr3227-v2
