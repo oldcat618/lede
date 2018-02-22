@@ -132,6 +132,7 @@ ar71xx_setup_interfaces()
 	tl-wr802n-v1|\
 	tl-wr802n-v2|\
 	tl-wr902ac-v1|\
+	tl-wdr3227-v2|\
 	tube2h|\
 	unifi|\
 	unifiac-lite|\
