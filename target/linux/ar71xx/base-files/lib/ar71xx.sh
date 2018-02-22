@@ -278,6 +278,9 @@ tplink_board_detect() {
 	"332000"*)
 		model="TP-Link TL-WDR3320"
 		;;
+	"322700"*)
+		model="TP-Link TL-WDR3227"
+		;;
 	"342000"*)
 		model="TP-Link TL-MR3420"
 		;;
@@ -1132,6 +1135,9 @@ ar71xx_board_detect() {
 		;;
 	*"TL-WDR3320 v2")
 		name="tl-wdr3320-v2"
+		;;
+	*"TL-WDR3227 v2")
+		name="tl-wdr3227-v2"
 		;;
 	*"TL-WDR3500")
 		name="tl-wdr3500"
