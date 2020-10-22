@@ -4,4 +4,6 @@
 
 if [ x"$INTERFACE" = x"7/1/1" ] || [ x"$INTERFACE" = x"7/1/2" ]; then
 	/usr/bin/usb_printer_hotplug "$PRODUCT" "$ACTION"
+	sleep 10
+	/etc/rc.d/S70usb_printer restart
 fi
